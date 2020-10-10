@@ -1,10 +1,17 @@
 # covid-uncounted
 learning data stuff by trying to estimate uncounted covid cases
 
-first git commit from RStudio
+first, make a (chartjunky?) plot of "shadow" cases
 
-second, after some fiddling
+make it interactive, selecting states first
+maybe also allow swapping different data streams from covidtracking.com
+e.g. negatives vs negativeViral + negativeAntigen 
 
-and some more, getting credentials saved
+then hook up interactive controls for a few different estimation functions
 
-and again
+first with simple sqrt function from: https://covid19-projections.com/estimating-true-infections/
+
+then add adjustment for testing per person
+
+keep tweaking?
+realize it's hopelessly crude relative to e.g. https://pandemicnavigator.oliverwyman.com/?
